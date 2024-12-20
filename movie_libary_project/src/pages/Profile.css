@@ -1,0 +1,112 @@
+.profile-page,
+.user-profile-page {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.profile-page-main, .user-profile-page-main {
+  margin: 30px auto;
+  padding: 0 30px;
+  text-align: left;
+}
+
+.profile-page .movie-list, .user-profile-page .movie-list {
+  margin: 20px auto;
+  padding: 0 20px;
+}
+.profile-page .movie-item, .user-profile-page .movie-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-page h1,
+.user-profile-page h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-page h2,
+.user-profile-page h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.movie-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.movie-list li {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.movie-list li:last-child {
+  border-bottom: none;
+}
+
+.movie-list li:hover {
+  background-color: #f9f9f9;
+}
+
+.movie-text h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.movie-text p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.remove-favorite-button {
+  background-color: #8a8887;
+  color: #fff; 
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+  float: right;
+  margin-left: 10px;
+}
+
+.remove-favorite-button:hover {
+  background-color: #6d6c6b;
+}
+
+.back-button {
+    display: block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #333;
+    background-color: #f5c518;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.back-button:hover {
+    background-color: #e5b417; 
+}
+
+.movie-list p {
+  text-align: left;
+  font-size: 1rem;
+  color: #777;
+}

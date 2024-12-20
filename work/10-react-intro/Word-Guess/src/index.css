@@ -1,0 +1,42 @@
+body, input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-form,
+.game-form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+.login-input, .guess-input {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
+  padding: 8px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 4px;
+  background-color: #a7a9a7;
+  color: black;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6e706e;
+}
+
+.error-message, .message {
+  color: red;
+  font-size: 0.9em;
+}
+

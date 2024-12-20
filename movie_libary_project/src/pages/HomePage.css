@@ -1,0 +1,131 @@
+.home-page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.home-page__header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #333; 
+    color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-page__header p {
+    margin: 0;
+}
+
+.home-page__header button {
+    background-color: #f5c518;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.home-page__header button:hover {
+    background-color: #e5b417; 
+}
+
+.home-page__main {
+    max-width: 1200px;
+    margin: 20px auto; 
+    padding: 0 20px;
+    text-align: left;
+}
+
+.home-page__main h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+    text-transform: uppercase; 
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.movie-list {
+    max-width: 1200px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    text-align: left; 
+}
+
+.movie-list__ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.movie-list-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s;
+    text-align: left;
+}
+
+.movie-list-item:last-child {
+    border-bottom: none;
+}
+
+.movie-list-item:hover {
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+
+.movie-image {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.movie-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.movie-text h3 {
+    margin: 0 0 5px;
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+}
+
+.movie-text p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.movie-list h2 {
+    text-align: left;
+    font-size: 1.5rem;
+    color: #333;
+    margin: 20px 15px 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+  
